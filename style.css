@@ -139,10 +139,29 @@ nav {
   display: none;
 }
 
-.nav-menu-btn {
+.nav-menu-btn i {
   font-size: 28px;
   cursor: pointer;
 }
+
+.active-link {
+  position: relative;
+  color: var(--first-color);
+  transition: 0.3s;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: var(--first-color);
+  border-radius: 50%;
+}
+
 /* --------- WRAPPER DESIGN --------- */
 .wrapper {
   padding-inline: 10vw;
@@ -539,6 +558,46 @@ textarea {
 }
 
 /* --------- FOOTER BOX --------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  background: #f8f8f8;
+  padding-block: 40px 60px;
+}
+
+.top-footer p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.middle-footer .footer-menu {
+  display: flex;
+}
+
+.footer_menu_list {
+  list-style: none;
+}
+
+.footer_menu_list a {
+  text-decoration: none;
+  color: var(--text-color-second);
+  font-weight: 500;
+  margin-inline: 20px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.bottom-footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
 
 /* --------- MEDIA QUERY == 1024px / RESPONSIVE --------- */
 @media only screen and (max-width: 1024px) {

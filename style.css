@@ -194,7 +194,7 @@ nav {
 }
 
 .featured-name {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: var(--text-color-second);
   margin-block: 20px;
@@ -216,8 +216,6 @@ nav {
 }
 
 .featured-text-btn > .blue-btn {
-  /* margin-right: 0px;
-  padding: 2px 15px; */
   background: var(--first-color);
   color: var(--color-white);
 }

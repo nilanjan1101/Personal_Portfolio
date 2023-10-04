@@ -111,3 +111,5 @@ function scrollActive() {
 }
 
 window.addEventListener("scroll", scrollActive);
+
+// ----------- HUMBURGER MENU FUNCTIONALITY -----------

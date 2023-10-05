@@ -113,3 +113,7 @@ function scrollActive() {
 window.addEventListener("scroll", scrollActive);
 
 // ----------- HUMBURGER MENU FUNCTIONALITY -----------
+
+// document.querySelector(".bar_menu_list").addEventListener("click", function () {
+//   console.log("clicks happen");
+// });

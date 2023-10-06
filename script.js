@@ -112,8 +112,19 @@ function scrollActive() {
 
 window.addEventListener("scroll", scrollActive);
 
-// ----------- HUMBURGER MENU FUNCTIONALITY -----------
+// ----------- DARK THEME IMPLEMENTATION -----------
+var themeicon = document.getElementById("themeicon");
+themeicon.onclick = function () {
+  document.body.classList.toggle("dark-theme");
+  console.log("theme change icon clicked");
+  if (document.body.classList.contains("dark-theme")) {
+    themeicon.className = "uil uil-sun";
+  } else {
+    themeicon.className = "uil uil-moon";
+  }
+};
 
+// ----------- HUMBURGER MENU FUNCTIONALITY -----------
 // document.querySelector(".bar_menu_list").addEventListener("click", function () {
 //   console.log("clicks happen");
 // });

@@ -16,6 +16,8 @@
   --second-color: rgb(0, 201, 255);
   --third-color: rgb(192, 166, 49);
   --first-shadow-color: rgba(0, 0, 0, 0.1);
+
+  --dark-theme-color: rgb(29, 48, 48);
 }
 
 /* --------- BASE --------- */
@@ -718,8 +720,11 @@ footer {
     width: 100%;
   }
 }
-/* --------- BASE --------- */
-
+/* --------- THEME SWITCHING --------- */
+#themeicon {
+  font-size: 24px;
+  cursor: pointer;
+}
 /* --------- BASE --------- */
 
 /* --------- BASE --------- */
